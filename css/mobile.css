@@ -1,0 +1,48 @@
+#navbar{
+    flex-direction: column;
+}
+#navbar ul{
+    padding-top: 10px;
+}
+#showcase{
+    height: 300px;
+   
+}
+.showcase-content .heading,.showcase-content .txtRepet{
+font-size: 1.5rem;
+}
+.about_content{
+    flex-direction: column;
+}
+.cta_paragraph{
+    font-size: 1rem;
+}
+.trainers .trainer_container{
+    flex-direction: column;
+}
+.trainers .trainer_container .box1{
+    flex-direction: column;
+}
+.trainers .trainer_container .box1 .trainer_box{
+    margin-bottom: 10px;
+}
+@media (max-width:463px){
+    #navbar{
+        position: static;
+    }
+    #navbar ul{
+        display: block;
+    }
+    #navbar ul li{
+        padding: 10px;
+    }
+    #showcase{
+    height: 200px;
+    }
+    
+    .program_container .boxs{
+        flex-direction: column;
+    }
+}
+
+
